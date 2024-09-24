@@ -1,0 +1,10 @@
+[DEFAULT]
+arch = "x86-64"
+luadir = "C:/Users/sooop/scoop/apps/lua/current/"
+luaver = "54"
+pydir = "C:/Python/Python312/"
+pydrv = "C"
+pyver = "312"
+vimdir = "C:/Program Files/Vim/vim91/"
+winver = "0x0A00"
+compiler = "clang"

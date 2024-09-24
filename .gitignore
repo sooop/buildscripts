@@ -1,0 +1,5 @@
+*~
+vim/
+sqlite/
+*.swp
+test.nu
