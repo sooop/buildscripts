@@ -11,13 +11,14 @@ def get-config [filename='vimcfg.toml'] {
 		let cfg = ($filename | path expand | open | get DEFAULT)
 		return $cfg
 	} else {
-		let pyver = 312
+        let username = 'sooop'
+		let pyver = 313
 		let pydrv = 'C'
 		let cfg = {
 			pyver: $pyver,
 			pydrv: $pydrv,
 			pydir: $"($pydrv):/Python/Python($pyver)/",
-			luadir: 'D:/scoop/apps/lua/current/',
+			luadir: $"C:/Users/($username)/apps/lua/current/",
 			luaver: 54,
 			arch: 'x86-64',
 			winver: '0x0A00',
